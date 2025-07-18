@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CESA Events</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d46565;
+        }
+
+        .logo {
+            margin-right: 100px;
+        }
+
+        .logo img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .main-title {
+            text-align: center;
+            margin: 30px 0 10px 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .tagline {
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2em;
+            color: #812453;
+            margin-bottom: 40px;
+        }
+
+        .section-divider {
+            border: none;
+            height: 2px;
+            background-color: #e9bcd2;
+            margin: 30px 0;
+        }
+
+        .featured-events {
+            margin-bottom: 40px;
+        }
+
+        .featured-events h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #8a3350;
+            border-bottom: 2px solid #e2b5e0;
+            padding-bottom: 10px;
+        }
+
+        .events-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .events-list li {
+            background-color: #eecee5;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #e5bee0;
+        }
+
+        .event-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #060b0f;
+        }
+
+        .event-details {
+            color: #130b0f;
+            margin-top: 5px;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #eb9fd8;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .schedule-table th,
+        .schedule-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .schedule-table th {
+            background-color: #f5ebf0;
+            color: rgb(12, 9, 9);
+            font-weight: bold;
+        }
+
+        .schedule-table tr:nth-child(even) {
+            background-color: #e9dbe2;
+        }
+
+        .schedule-table tr:hover {
+            background-color: #e8f4f8;
+        }
+
+        .registration-section {
+            background-color: #f6e8f2;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 2px solid #140c11;
+        }
+
+        .registration-section h2 {
+            color: #0a110d;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+
+        .registration-section p {
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        .email-link {
+            color: #0d293b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #333;
+            color: #24061a;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2em;
+            }
+            
+            .tagline {
+                font-size: 1em;
+            }
+            
+            .schedule-table {
+                font-size: 0.9em;
+            }
+            
+            .schedule-table th,
+            .schedule-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="college-logo.png" alt="College Logo">
+        </div>
+    </header>
+
+    <h1 class="main-title">CESA EVENTS </h1>
+    <p class="tagline">"Innovate. Inspire. Impact."</p>
+
+    <hr class="section-divider">
+
+    <section class="featured-events">
+        <h3>Featured Events</h3>
+        <ul class="events-list">
+            <li>
+                <div class="event-name">Debate Competition</div>
+                <div class="event-details">August 12, 2025 • 2:00 PM – 4:00 PM • Auditorium</div>
+            </li>
+            <li>
+                <div class="event-name">Tech Quiz</div>
+                <div class="event-details">August 13, 2025 • 11:00 AM – 12:30 PM • Seminar Hall</div>
+            </li>
+            <li>
+                <div class="event-name">Workshop: Introduction to AI</div>
+                <div class="event-details">August 14, 2025 • 10:00 AM – 1:00 PM • Computer Lab</div>
+            </li>
+            <li>
+                <div class="event-name">Short Film / Ad-Mad Show</div>
+                <div class="event-details">August 15, 2025 • 3:00 PM – 5:00 PM • Auditorium</div>
+            </li>
+            <li>
+                <div class="event-name">Build-a-Logo Contest</div>
+                <div class="event-details">August 16, 2025 • 10:00 AM – 12:00 PM • Seminar Hall</div>
+            </li>
+        </ul>
+    </section>
+
+    <hr class="section-divider">
+
+    <section class="schedule-section">
+        <h3>Event Schedule</h3>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Debate Competition</td>
+                    <td>Aug 10,2025</td>
+                    <td>2:00 PM – 4:00 PM</td>
+                    <td>107 Lab</td>
+                </tr>
+                <tr>
+                    <td>Tech Quiz</td>
+                    <td>Aug 11, 2025</td>
+                    <td>11:00 AM – 12:30 PM</td>
+                    <td>Conference Hall</td>
+                </tr>
+                <tr>
+                    <td>Workshop: Introduction to AI</td>
+                    <td>Aug 12, 2025</td>
+                    <td>10:00 AM – 1:00 PM</td>
+                    <td>Computer Lab</td>
+                </tr>
+                <tr>
+                    <td>Short Film / Ad-Mad Show</td>
+                    <td>Aug 13, 2025</td>
+                    <td>3:00 PM – 5:00 PM</td>
+                    <td>Conference Hall</td>
+                </tr>
+                <tr>
+                    <td>Build-a-Logo Contest</td>
+                    <td>Aug 14, 2025</td>
+                    <td>10:00 AM – 12:00 PM</td>
+                    <td>Conference Hall</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr class="section-divider">
+
+    <section class="registration-section">
+        <h2>Registration</h2>
+        <p>Register at the CESA desk or email us at <a href="mailto:cesa@example.com" class="email-link">cesa@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CESA Committee | VPKBIET</p>
+    </footer>
+</body>
+</html>
